@@ -1,11 +1,15 @@
-// import { useState } from 'react';
-import './App.css';
 import Landing_Page from './common_Page/Landing_Page';
-function App() {
-  // const [count, setCount] = useState(0);
+import Footer from './common_Page/Footer';
+import Navbar from './common_Page/Navbar';
+import './index.css';
 
+function App() {
   return (
-    <Landing_Page />
+    <>
+      <Navbar />
+      <Landing_Page />
+      <Footer />
+    </>
   );
 }
 

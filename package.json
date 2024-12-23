@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
