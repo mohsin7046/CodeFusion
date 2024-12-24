@@ -1,14 +1,14 @@
-import Landing_Page from './common_Page/Landing_Page';
-import Footer from './common_Page/Footer';
-import Navbar from './common_Page/Navbar';
+import Home from './User_Section/pages/SideBar/Community/CommunityHome';
 import './index.css';
+import Calendar from './User_Section/pages/SideBar/Calender/Calendar';
+import SideBar from './User_Section/pages/SideBar/SideBar';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Landing_Page />
-      <Footer />
+      <SideBar />
+      <Home />
+      <Calendar />
     </>
   );
 }
